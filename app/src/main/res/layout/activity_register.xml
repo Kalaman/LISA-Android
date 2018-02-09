@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_gradient">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_shopping_cart_white_48dp"/>
+
+        <TextView
+            android:text="LISA"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:maxLines="1"
+            android:inputType="text"
+            android:hint="Benutzername"/>
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:textColor="@color/colorWhite"
+            android:maxLines="1"
+            android:hint="Passwort"/>
+
+
+        <EditText
+            android:id="@+id/editTextServerIP"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:maxLines="1"
+            android:inputType="text"
+            android:hint="Server-IP"
+            android:layout_marginBottom="25dp"/>
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:text="Registrieren"
+            android:layout_width="match_parent"
+            android:background="@color/colorWhite"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
